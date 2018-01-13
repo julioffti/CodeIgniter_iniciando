@@ -17,6 +17,11 @@ class Pages extends CI_Controller
         $this->load->view('template/footer');
     }
 
+    public function view ($id) {
+        $page = $this->pages_model->get($id);
+        var_dump($page);
+    }
+
    public function add()
    {
        $this->load->library('form_validation');
