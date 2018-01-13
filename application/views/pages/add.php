@@ -2,7 +2,7 @@
 
 <?php echo validation_errors(); ?>
 
-<form action="/pages/add" method="post">
+<form action="/pages/new" method="post">
 
     <div class="form-group">
         <label for="title">Título</label>
